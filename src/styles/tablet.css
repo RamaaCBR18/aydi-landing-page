@@ -1,0 +1,78 @@
+h1,
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.7rem;
+  letter-spacing: 1.3px;
+  font-weight: bolder;
+}
+
+h2 {
+  position: relative;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+h2::before {
+  content: "TITULO";
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: max-content;
+  top: -18px;
+  left: -60px;
+  font-size: 3rem;
+  opacity: 0.2;
+}
+
+section {
+  height: 80vh;
+  margin-bottom: 10rem;
+}
+
+/* HEADER */
+.header__bars {
+  display: none;
+}
+
+.header .nav .nav__ul {
+  display: flex;
+  gap: 15px;
+}
+
+/* ABOUT */
+.about__title::before {
+  left: -46px;
+}
+
+.about__paragraph {
+  width: 85%;
+}
+
+/* SERVICES */
+.services__title::before {
+  left: -45px;
+}
+
+.services__list {
+  flex-direction: row;
+}
+
+/* BEATS */
+.beats__title::before {
+  left: -32px;
+}
+
+/* CONTACT */
+.contact__title::before {
+  left: -50px;
+}
+
+.contact__list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact__item {
+  flex-direction: column;
+}
