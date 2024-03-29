@@ -1,78 +1,54 @@
-h1,
+/* TITULOS */
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 6.9px;
+  margin-bottom: -5px;
+}
+
 h2 {
   font-size: 2rem;
   text-align: center;
-  line-height: 1.7rem;
-  letter-spacing: 1.3px;
-  font-weight: bolder;
-}
-
-h2 {
-  position: relative;
-  margin-bottom: 30px;
+  letter-spacing: -0.5px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-h2::before {
-  content: "TITULO";
-  display: block;
+/* IMAGEN */
+
+.inicio__figure {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.inicio__img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.inicio__figure p {
+  margin: 0;
   position: absolute;
-  text-align: center;
-  width: max-content;
-  top: -18px;
-  left: -60px;
-  font-size: 3rem;
-  opacity: 0.2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: -3px 2px 3px rgba(255, 255, 255, 0.7);
 }
 
-section {
-  height: 80vh;
-  margin-bottom: 10rem;
-}
+/* LINKS */
 
-/* HEADER */
-.header__bars {
-  display: none;
-}
-
-.header .nav .nav__ul {
-  display: flex;
-  gap: 15px;
-}
-
-/* ABOUT */
-.about__title::before {
-  left: -46px;
-}
-
-.about__paragraph {
-  width: 85%;
-}
-
-/* SERVICES */
-.services__title::before {
-  left: -45px;
-}
-
-.services__list {
-  flex-direction: row;
-}
-
-/* BEATS */
-.beats__title::before {
-  left: -32px;
-}
-
-/* CONTACT */
-.contact__title::before {
-  left: -50px;
-}
-
-.contact__list {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.contact__item {
-  flex-direction: column;
+.inicio__item a {
+  font-size: 2rem;
+  display: block;
+  position: relative;
+  font-weight: bolder;
 }
