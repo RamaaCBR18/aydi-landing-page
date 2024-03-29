@@ -45,7 +45,7 @@ ul {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
@@ -190,6 +190,10 @@ section {
 }
 
 @media screen and (min-width: 550px) {
+  section {
+    justify-content: start;
+  }
+
   /* TITULOS */
 
   h1 {
@@ -247,6 +251,10 @@ section {
 }
 
 @media screen and (min-width: 800px) {
+  section {
+    justify-content: start;
+  }
+
   /* TITULOS */
 
   h1 {
@@ -312,5 +320,11 @@ section {
     display: block;
     position: relative;
     font-weight: bolder;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: rgb(241, 229, 214);
   }
 }
