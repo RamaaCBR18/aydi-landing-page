@@ -327,4 +327,12 @@ section {
   :root {
     --primary-color: rgb(241, 229, 214);
   }
+
+  body {
+    background-color: rgb(241, 229, 214);
+  }
+
+  .header {
+    background-color: rgb(241, 229, 214);
+  }
 }
