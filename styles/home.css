@@ -62,6 +62,11 @@
   transform: scaleX(1.2);
 }
 
+/* PROXIMAMENTE DRUM KITS */
+.drumkits {
+  cursor: not-allowed;
+}
+
 @media screen and (min-width: 550px) {
   /* TITULOS */
 

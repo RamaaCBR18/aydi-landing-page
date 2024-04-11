@@ -59,7 +59,7 @@ section {
   min-width: 320px;
   padding: 0 1rem;
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 /* NAVIGATION */
@@ -87,19 +87,25 @@ section {
   section {
     justify-content: start;
   }
+
+  .header__logo {
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
 }
 
 @media screen and (min-width: 800px) {
   section {
     justify-content: start;
+    margin-bottom: 25rem;
   }
 
   /* NAVEGACIÓN */
-  .header .nav .nav__ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  .header__logo {
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: 500;
   }
 }
 
