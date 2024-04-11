@@ -47,7 +47,7 @@
 
 .inicio__item a::before {
   position: absolute;
-  top: 40%;
+  top: 48%;
   left: -2%;
   content: "";
   background-color: #000;
